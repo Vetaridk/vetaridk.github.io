@@ -1,0 +1,99 @@
+@font-face {
+    font-family: politi;
+    src: url(../fonts/Politi-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    max-width: 1730px;
+    display: flex;
+    width: 90%;
+    height: 6vh;
+    margin: auto;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.login-links {
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.nav-link, .login-link {
+    color: #777777;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover, .login-link:hover, .krimi a:hover {
+    color: #d9230f;
+    text-decoration: none;
+}
+
+body {
+    font-family: politi;
+}
+
+.navbar-brand {
+    margin-right: 165px;
+    margin-left: 50px;
+}
+
+.vetari {
+    margin-right: 50px;
+}
+
+.ansatte {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ansatte2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ansatte3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ansatte4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.efterlysninger {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
