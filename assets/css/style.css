@@ -39,11 +39,6 @@ nav {
     list-style: none;
 }
 
-.login-links {
-    list-style: none;
-    justify-content: flex-end;
-}
-
 .nav-link, .login-link {
     color: #777777;
     font-size: 16px;
@@ -60,7 +55,7 @@ body {
 }
 
 .navbar-brand {
-    margin-right: 100px;
+    margin-right: 165px;
     margin-left: 50px;
 }
 
@@ -68,32 +63,27 @@ body {
     margin-right: 50px;
 }
 
-.ansatte {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.ansatte2 {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.ansatte3 {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.ansatte4 {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .efterlysninger {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.ansatte h2 {
+    padding: 5px;
+    margin: 0;
+    color: #000;
+}
+
+.ansatte {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.afdeling {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
